@@ -9,12 +9,12 @@
   // Stores OAuth clients, grants and (encrypted) Whoop tokens.
   // Create it with:  npx wrangler kv namespace create OAUTH_KV
   // then paste the printed id here.
-  "kv_namespaces": [{ "binding": "OAUTH_KV", "id": "REPLACE_WITH_KV_ID" }],
+  "kv_namespaces": [{ "binding": "OAUTH_KV", "id": "c15d59acd8b64297b716caf867157cf7" }],
 
   "vars": {
     // The exact URL MCP clients connect to. Every token is bound to it.
     // After your first deploy, set this to https://whoop-mcp.<your-subdomain>.workers.dev/mcp
-    "MCP_RESOURCE": "https://whoop-mcp.REPLACE_ME.workers.dev/mcp"
+    "MCP_RESOURCE": "https://whoop-mcp.neelroy.workers.dev/mcp"
   }
 
   // Secrets (set with `npx wrangler secret put <NAME>`):
